@@ -11,7 +11,7 @@ body {
 }
 
 .mano-realista {
-    width: 1000px; /* Tamaño de la imagen */
+    width: 100%; /* Tamaño de la imagen */
     height: auto; /* Mantener la relación de aspecto */
 }
 
