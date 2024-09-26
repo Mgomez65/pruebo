@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.mano-container {
+    animation: slideUp 5s ease-out forwards infinite; /* Animación total de 5 segundos */
+}
+
+.mano-realista {
+    width: 1000px; /* Tamaño de la imagen */
+    height: auto; /* Mantener la relación de aspecto */
+}
+
+/* Animación para que aparezca desde abajo */
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0; /* Invisible al inicio */
+    }
+    20% {
+        transform: translateY(0);
+        opacity: 1; /* Totalmente visible */
+    }
+    60% {
+        transform: translateY(0);
+        opacity: 1; /* Mantiene la visibilidad */
+    }
+    100% {
+        transform: translateY(100%);
+        opacity: 0; /* Hacerse invisible al final */
+    }
+}
