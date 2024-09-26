@@ -9,7 +9,7 @@ body {
 .mano-container {
     animation: slideUp 5s ease-out forwards infinite; /* Animación total de 5 segundos */
     width: 100%; /* Ocupar el 100% del ancho del contenedor */
-    height: 100%; /* Ocupar el 100% de la altura del contenedor */
+    height: 300px; /* Ocupar el 100% de la altura del contenedor */
     overflow: hidden; /* Evitar que el contenido se salga del contenedor */
 }
 
