@@ -1,6 +1,6 @@
 body {
     margin: 0; /* Eliminar márgenes por defecto */
-    height: 100vh; /* Altura completa de la ventana del navegador */
+    height: 100%; /* Altura completa de la ventana del navegador */
     display: flex;
     justify-content: center;
     align-items: center;
