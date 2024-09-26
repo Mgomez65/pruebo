@@ -1,5 +1,6 @@
 body {
-    height: 100vh;
+    margin: 0; /* Eliminar márgenes por defecto */
+    height: 100vh; /* Altura completa de la ventana del navegador */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,11 +9,15 @@ body {
 
 .mano-container {
     animation: slideUp 5s ease-out forwards infinite; /* Animación total de 5 segundos */
+    width: 100%; /* Ocupar el 100% del ancho del contenedor */
+    height: 100%; /* Ocupar el 100% de la altura del contenedor */
+    overflow: hidden; /* Evitar que el contenido se salga del contenedor */
 }
 
 .mano-realista {
-    width: 100%; /* Tamaño de la imagen */
+    width: 100%; /* Ocupar el 100% del ancho del contenedor */
     height: auto; /* Mantener la relación de aspecto */
+    max-height: 100%; /* Asegurar que no supere la altura del contenedor */
 }
 
 /* Animación para que aparezca desde abajo */
